@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #180638;
+}.container{ 
+    
+    height:100%;
+    width: 100%;
+     background-image: url(image.jpg);
+    background-size: cover;
+}
+.logo{
+    height: 120px;
+    width: 280px;
+    border: 2px solid rgb(175, 96, 207);
+    border-radius: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    align-items: left;
+    
+}
+.navbar{
+    width: 98.2%;
+    height: 95px;
+  margin-top: 35px;
+  border: 4px solid rgb(7, 1, 8);
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  /*justify-content: space-evenly;*/
+    background-color: rgb(199, 94, 218);
+     
+}
+#list li a{
+    margin-left: 10px;
+   padding-right: 50px;
+}
+.navbar ul li{
+    
+    display: inline-block;
+    margin: 0 15px;
+    text-align: right;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+ .navbar a:hover{
+    color: rgb(43, 14, 50);
+    text-shadow: black;
+    border-bottom: 1px solid rgb(239, 212, 247);
+    border-radius: 2px;
+}
+.content{
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 40px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.play{
+    text-align: right;
+   
+    font-size: 60px;
+    margin: 140px 70px ;
+}
+.play a{
+    text-decoration: none;
+    color: aliceblue;
+}
+/*.popular{
+    height: 80px;
+    width: 270px;
+    margin-top: 60px;
+    margin-left: 30px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}*/
+marquee{
+    height: 40px;
+    background-color: rgb(224, 127, 241);
+    margin-top: 20px;
+    font-size: 25px;
+    border: 1px dashed rgb(60, 20, 69);
+
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    
+}
+.pop1{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("1stimg.jpg");
+    background-size: cover;
+   
+}
+.pop2{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("2ndimg.jpeg");
+    background-size: cover;
+   
+}
+.pop3{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("3rdimg.jpg");
+    background-size: cover;
+  
+}
+.pop4{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("diltu.jpg");
+    background-size: cover;
+   
+}
+.pop{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("laila.jpg");
+    background-size: cover;
+}
+.one{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: static;
+    margin-top: 30px;
+}
+.popular{
+    font-size: 30px;
+    height: 45px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 30px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(60, 20, 69);
+    border: 2px solid aliceblue;
+    background-color: rgb(175, 96, 207);
+}
+.pop5{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("arjit2.jpg");
+    background-size: cover;
+   border-radius: 40%;
+}
+.pop6{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("latamangeshkar.jpeg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.pop7{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("kakkar.jpeg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.pop8{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("nigam.jpg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.pop9{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("shreya.jpg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.pop10{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("ajayatula.jpg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.pop11{
+    height: 180px;
+    width:180px;
+    background-color: rgb(175, 96, 207);
+    border: 1px solid black;
+    background-image: url("avdhoot.jpg");
+    background-size: cover;
+    border-radius: 40%;
+}
+.popular2{
+    margin-top: 60px;
+    font-size: 30px;
+    height: 45px;
+    width: 300px;
+   
+    margin-left: 30px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(60, 20, 69);
+    border: 2px solid aliceblue;
+    background-color: rgb(175, 96, 207);
+}
+.gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 550px;
+    background-color:aliceblue ;
+}
+.card img{
+    height: 300px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid rgb(175, 96, 207);
+    border-radius: 5px;
+}
+.card p{
+    font-size: 20px;
+}
+.card button{
+    height: 40px;
+    width: 130px;
+    background-color: #180638;
+    border: 2px solid rgb(63, 11, 87);
+    border-radius: 2px;
+    color: aliceblue;
+}
+.back{
+    height:40px;
+    background-color: rgb(175, 96, 207);
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+
+}
+.back button{
+    width: 200px;
+    height: 30px;
+    background-color: aliceblue;
+    border: 1px solid rgb(63, 11, 87);
+}
+footer{
+    height: 200px;
+}
+.foot-panel{
+    background-color: #180638;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 60px;
+
+}
+.foot-panel a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+.foot-panel ul{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(168, 55, 168);
+}
+.end{
+    height: 15px;
+    background-color:  #05000e;
+    color: aliceblue;
+    font-size: 17px;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
