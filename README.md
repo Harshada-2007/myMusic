@@ -7,7 +7,7 @@ A beginner-friendly music-themed static website built while learning HTML & CSS.
 
 ## 🔗 Live Demo
 
-👉 [Click here to view](https://harshada-2007.github.io/musicWebsite/)
+👉 [Click here to view](https://harshada-2007.github.io/myMusic/)
 
 
 ---
